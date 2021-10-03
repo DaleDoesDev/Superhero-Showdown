@@ -1,6 +1,6 @@
 # Superhero Showdown
 
-![screenshot of the application](/images/screenshot_01.png?raw=true)
+![screenshot of the application](public/images/screenshot_01.png?raw=true)
 
 "Superhero Showdown" is a fully responsive, event-driven web app consuming JSON data from a superhero API. 
 
