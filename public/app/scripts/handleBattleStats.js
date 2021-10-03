@@ -1,7 +1,7 @@
 import qSelect from "../utils/qSelect.js";
 import comicDialogue from "../models/Dialogue.js";
 import { player, enemy } from "../models/Character.js";
-import battleEnd from "./BattleEnd.js";
+import battleEnd from "./battleEnd.js";
 
 /* Battle: Character stats are displayed and compared one-by-one.
   This function loops with compareStatValues for each battle stat.
