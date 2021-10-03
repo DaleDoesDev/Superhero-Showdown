@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Biographies, stats, and a battle simulation for comic book heroes and villans (superheroes and supervillans) from comic book publishers such as Marvel and DC Comics.">
-        <title>Superhero Showdown - Home</title>
+        <meta name="description" content="Biographies, stats, and a battle simulation for comic book heroes and villans (superheroes and supervillans) from publishers such as Marvel and DC Comics.">
+        <title>Superhero Showdown</title>
 
         <script src="https://kit.fontawesome.com/838ff0a0f6.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,7 +16,7 @@
 
     </head>
     <body>
-
+        <noscript>You need to enable JavaScript to use this application.</noscript>
         <header>
             <a href="https://github.com/DaleDoesDev"><i class="fab fa-github"></i> DaleDoesDev</a></i>
         </header>
@@ -30,7 +30,7 @@
         <row class="row">
             <column class="column">
                 <div class="portraitBanner">Advantage</div> <!-- Invisible at start -->
-                <img class="portrait" src="unknownChar.jpg" alt="A portrait style image of a random superhero or supervillan">
+                <img class="portrait" src="images/unknownChar.jpg" alt="A portrait style image of a random superhero or supervillan">
                 <button class="btn"><strong>RANDOM</strong></button>
                 <button class="btn hiddenBtn"><strong>BATTLE</strong></button>
             </column>
@@ -48,7 +48,7 @@
             </column>          
         </row>
 
-        <!-- IE check -->
+        <!-- IE check (unsupported) -->
         <script>
         if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
             window.location = 'microsoft-edge:' + window.location;
@@ -57,12 +57,7 @@
             }, 1);
         }
         </script>
-
-        <script src="./utils/populateBio.js"></script> 
-        <script src="./utils/clearCharUi.js"></script>
-        <script src="./utils/managePanel.js"></script> 
-        <script src="./utils/generateCharacter.js"></script>  
-        <script src="./utils/updateBattleUi.js"></script>    
-        <script src="index.js"></script>
+ 
+        <script src="app/home/index.js" type="module"></script>   
     </body>
 </html>
