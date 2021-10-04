@@ -2,8 +2,6 @@ import getCharacterId from "../utils/getCharacterId.js";
 import populateBio from "../utils/populateBio.js";
 import { player, enemy } from "../models/Character.js";
 
-let test = "";
-
 //'char' (character) is 0 or 1 (player or enemy)
 export default async function generateCharacter(num, char) {
   await fetch(
