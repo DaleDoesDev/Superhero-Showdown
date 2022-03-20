@@ -8,7 +8,7 @@ import comicDialogue from "../models/Dialogue.js";
 
 export default function setupPostBattle(msg) {
   let midPanel = qSelect(".stat");
-  let midRow = qSelect("row:nth-of-type(2)");
+  let midRow = qSelect(".row:nth-of-type(2)");
   let ulElements = document.querySelectorAll("ul");
   let bannerElements = document.querySelectorAll(".portraitBanner");
   let defaultHTML =
