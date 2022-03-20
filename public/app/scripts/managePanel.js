@@ -27,7 +27,7 @@ export default function managePanel() {
   } else if (stage === 1) {
     dialogue.classList.add("fadeOut");
     setTimeout(() => {
-      qSelect("row").classList.add("col");
+      qSelect(".row").classList.add("col");
       setTimeout(prepBattleArea, 1000);
     }, 700);
   }
